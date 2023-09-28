@@ -5,23 +5,27 @@ Compilation and Execution
 
 For Customers:
 To compile the customer component, execute the following command in the command prompt:
-g++ Customer.cpp
+g++ Customer.cpp -o customer
+(or)
+make customer
 
 For Linux users, run the program with:
-./a.out
+./customer
 
 For Windows users, execute it using:
-.\a.exe
+.\customer
 
 For Administrators:
 To compile the admin component, use the following command:
-g++ ADMIN.cpp
+g++ ADMIN.cpp -o admin
+(or)
+make admin
 
 Again, for Linux, run the program with:
-./a.out
+./admin
 
 And for Windows, execute it as follows:
-.\a.exe
+.\admin
 
 Data Storage
 Customer data is stored in the file customer_data.txt, while transaction records are stored in transactions.txt.
